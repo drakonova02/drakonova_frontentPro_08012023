@@ -79,11 +79,11 @@ if(array.length) {
 
     // Task 10
 
-    array.forEach(function(elem) {
-        if(elem !== maxElem) {
-            elem = 0;
+    for(let i = 0; i < array.length; ++i) {
+        if(array[i] !== maxElem) {
+            array[i] = 0;
         }
-    })
+    }
 
     console.log(array);
 } else {
